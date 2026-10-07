@@ -1,12 +1,13 @@
-package com.example.modtemplate;
+package com.elduin.butt_cheeks;
 
-import com.example.modtemplate.platform.Platform;
+import com.elduin.butt_cheeks.content.ModBlocks;
+import com.elduin.butt_cheeks.platform.Platform;
 
 import net.minecraft.resources.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.example.modtemplate.platform.fabric.FabricPlatform;
+import com.elduin.butt_cheeks.platform.fabric.FabricPlatform;
 
 @SuppressWarnings("LoggingSimilarMessage")
 public class ModTemplate {
@@ -19,6 +20,7 @@ public class ModTemplate {
 	private static final Platform PLATFORM = createPlatformInstance();
 
 	public static void onInitialize() {
+		ModBlocks.init();
 		LOGGER.info("Initializing {} on {}", MOD_ID, ModTemplate.xplat().loader());
 		LOGGER.debug("{}: { version: {}; friendly_name: {} }", MOD_ID, MOD_VERSION, MOD_FRIENDLY_NAME);
 	}
@@ -36,7 +38,7 @@ public class ModTemplate {
 		return new FabricPlatform();
 	}
 
-	private static Identifier id(String path) {
+	public static Identifier id(String path) {
 		return Identifier.fromNamespaceAndPath(MOD_ID, path);
 	}
 

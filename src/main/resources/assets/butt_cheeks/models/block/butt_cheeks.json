@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "butt_cheeks:block/butt_cheeks"
+  }
+}

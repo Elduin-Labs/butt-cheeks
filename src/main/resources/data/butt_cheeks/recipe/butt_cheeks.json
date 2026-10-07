@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:slime_block",
+    "minecraft:pink_dye",
+    "minecraft:orange_dye"
+  ],
+  "result": {
+    "id": "butt_cheeks:butt_cheeks",
+    "count": 1
+  }
+}

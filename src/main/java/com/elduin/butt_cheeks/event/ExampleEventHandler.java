@@ -1,6 +1,6 @@
-package com.example.modtemplate.event;
+package com.elduin.butt_cheeks.event;
 
-import com.example.modtemplate.ModTemplate;
+import com.elduin.butt_cheeks.ModTemplate;
 import net.minecraft.server.level.ServerPlayer;
 
 public class ExampleEventHandler {

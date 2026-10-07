@@ -1,6 +1,6 @@
-package com.example.modtemplate.mixin;
+package com.elduin.butt_cheeks.mixin;
 
-import com.example.modtemplate.ModTemplate;
+import com.elduin.butt_cheeks.ModTemplate;
 import dev.kikugie.fletching_table.annotation.MixinEnvironment;
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
