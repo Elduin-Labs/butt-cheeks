@@ -12,9 +12,9 @@ import com.elduin.butt_cheeks.platform.fabric.FabricPlatform;
 @SuppressWarnings("LoggingSimilarMessage")
 public class ModTemplate {
 
-	public static final String MOD_ID = /*$ mod_id*/ "modtemplate";
+	public static final String MOD_ID = /*$ mod_id*/ "butt_cheeks";
 	public static final String MOD_VERSION = /*$ mod_version*/ "1.0.0";
-	public static final String MOD_FRIENDLY_NAME = /*$ mod_name*/ "Mod Template";
+	public static final String MOD_FRIENDLY_NAME = /*$ mod_name*/ "Butt Cheeks";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	private static final Platform PLATFORM = createPlatformInstance();

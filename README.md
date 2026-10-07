@@ -1,5 +1,7 @@
 # Butt Cheeks
 
+<img src="src/main/resources/assets/icon.png" width="128" align="right">
+
 A silly mod by Elduin. It adds one squishy, peach-colored block that bounces you
 like a slime block.
 
